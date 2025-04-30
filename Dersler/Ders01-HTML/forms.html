@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Form Tagi: Kullanıcılardan veri toplamak ve bu verileri bir sunucuya göndermek için kullanılır. -->
+    <form >
+        <div>
+            <!-- input alanı için açıklayıcı bir metin sağlar. -->
+            <!-- For: id ye göre bağlar. -->
+            <label for="name">Name:</label>
+
+            <!-- Type: İçine yazılacak değerin tipi (text, password, email, ...)-->
+            <!-- Id: Ayırıcı unsur. Tek olmalı. Seçerken kullanılır.-->
+            <!-- Name: Ulaşmak için kullanılır-->
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+        </div>
+
+        <div>
+            <label for="">Gender: </label>
+
+            <label for="woman">Woman:</label>
+            <input type="radio" id="woman" name="gender">
+
+            <label for="man">Man:</label>
+            <input type="radio" id="man" name="gender">
+            <!-- İki input'un da "name" değişkeni aynı olduğu için ikisini birden seçemeyiz. -->
+        </div>
+
+        <div>
+            <label for="">Programlama Dilleri: </label>
+
+            <label for="python">Python:</label>
+            <input type="checkbox" id="python" name="python">
+
+            <label for="javascript">Javascript:</label>
+            <input type="checkbox" id="javascript" name="javascript">
+        </div>
+        
+            <!-- submit: Button türü -->
+            <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>
