@@ -1,0 +1,25 @@
+/* "*" seçicisi her şeyi seçer. Genelde diğerlerini ezmemesi için en başta yazılır. */
+*{
+    height: 50px;
+    width: 250px;
+    margin: 10px; /* Dış Boşluk */
+
+}
+.box{
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+}
+.red{
+    background-color: red;
+    margin-left:50px ;
+    padding:20px 0 ; /* İç Boşluk */
+}
+.blue{
+    background-color: blue;
+    margin-bottom: 50px;
+}
+.green{
+    background-color: green;
+    margin: 100px 20px 70px 50px; /* Ayrı padding-margin verme : üst-sağ-alt-sol */
+}

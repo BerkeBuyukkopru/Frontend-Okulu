@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Css ler head içinde ayrı bir şekilde da ayarlanabilir. -->
+    <style>
+        /* Style içine ".abcd" yazarak ilgili class' a ait nesnelere css uygulanır. */
+        .header{
+            color: rgb(36, 111, 134); 
+            font-size: 32px;
+        }
+        .nav{
+            color: blueviolet;
+            font-size: xx-large;
+        }
+
+        /* Eğer . koymadan "nav" şeklinde yapılırsa direkt tüm "tag" ler seçilir. */
+        nav{
+            background-color: brown;
+            color: chartreuse;
+            font-size: larger;
+        }
+
+        /* "Id" ye göre işlem yapılmak istenirse . yerine # işareti kullanılarak ilgili id yazılır. */
+        #nav3{
+            color: crimson;
+            font-size: x-large;
+        }
+
+        .paragraf{
+            color: coral;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            background-color: rgb(31, 113, 185);
+        }
+    </style>
+
+</head>
+<body>
+    <!-- CSS: Style lar ile düzenlenir. Kod içinde yapılan css düzenlemelerine "inline" css denir. -->
+    <header class="header" style="color: orangered; font-size: 32px">Header1</header>
+    <header class="header">Header2</header>
+
+    <!-- Boşluk -->
+    <br> 
+
+    <nav class="nav">Nav1</nav>
+    <nav class="nav">Nav2</nav>
+    <nav id="nav3">Nav3</nav>
+    <nav>Nav4</nav>
+    <br>
+    <p class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ratione modi ipsam placeat. Quas pariatur rem impedit ab dolorum possimus porro perspiciatis deserunt adipisci libero consectetur quod perferendis, incidunt nulla facilis neque aliquam? Optio facere cupiditate eos veniam? Magni reiciendis mollitia veritatis, ipsum illum dolor alias ex voluptas consequuntur in!</p>
+</body>
+</html>  
